@@ -1,8 +1,8 @@
 "AddonInfo"
 {
-	"name"        "Garry's Mod Achievements Pack"
+	"name"        "Achivements System"
 	"version"     "None"
-	"author_name" "!cake"
+	"author_name" "thexkey"
 	"author_url"  ""
 	"info"        "Achievements! :D"
 	"override"    "0"
