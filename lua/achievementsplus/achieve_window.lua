@@ -1,4 +1,4 @@
-include ("menu/achievements.lua")
+--include ("menu/achievements.lua")
 
 local ACHIEVEMENTSPANEL = {}
 
