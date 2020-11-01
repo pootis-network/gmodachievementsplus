@@ -1,4 +1,6 @@
-include("achievementsplus/achieve_init.lua")
-include("achievementsplus/achieve_window.lua")
-include("achievementsplus/achieve_notifications.lua")
+AddCSLuaFile("achievementsplus/achieve_init.lua")
+AddCSLuaFile("achievementsplus/achieve_window.lua")
+AddCSLuaFile("achievementsplus/achieve_notifications.lua")
+AddCSLuaFile("achievements.lua")
+
 print("Achivement System - Ready!")
