@@ -33,9 +33,9 @@ function NOTIFICATIONPANEL:Init()
     self.Text:SetTextColor(Color(180, 180, 180, 255))
     self.Text2:SetTextColor(Color(180, 180, 180, 255))
     self.Icon:SetKeepAspect(true)
-    self.Title:SetFont("DefaultBold")
-    self.Text:SetFont("DefaultBold")
-    self.Text2:SetFont("DefaultBold")
+    self.Title:SetFont("Default")
+    self.Text:SetFont("Default")
+    self.Text2:SetFont("Default")
     self.LaidOut = false
 end
 
