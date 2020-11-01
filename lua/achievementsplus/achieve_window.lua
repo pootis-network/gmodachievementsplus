@@ -1,3 +1,4 @@
+--include ("menu/achievements.lua")
 local ACHIEVEMENTSPANEL = {}
 
 function ACHIEVEMENTSPANEL:Init()
@@ -12,7 +13,7 @@ end
 AchievementsPlus:AddEventHook("AchievementsPlusLoaded", "AchievementsWindow.Create", function()
     vgui.Register("AchievementsPlusWindow", ACHIEVEMENTSPANEL, "DFrame")
     AchievementsPlus:HookAchievements()
-    AchievementsPlus.AchievementsPanel = vgui.Create("Achievements") -- vgui.Create ("AchievementsPlusWindow")
+    AchievementsPlus.AchievementsPanel = vgui.Create("AchievementsPlusWindow") -- vgui.Create ("AchievementsPlusWindow")
     AchievementsPlus:UnhookAchievements()
     AchievementsPlus.AchievementsPanel:SetVisible(false)
     AchievementsPlus.AchievementsPanel:SetDeleteOnClose(false)
