@@ -1,3 +1,4 @@
+AchievementsPlus = {}
 AchievementsPlus.Notifications = {}
 AchievementsPlus.Notifications.NotificationQueue = {}
 
