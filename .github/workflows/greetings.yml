@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Hello, welcome to Poots Network! Please wait 10 minutes to a hour for us to contact you. If we don't contact, contact us on our discord at discord.gg/xPrKvt9'' first issue'
+        pr-message: 'Hello, welcome to Poots Network! Please wait 10 minutes to a hour for us to contact you. If we don't contact, contact us on our discord at discord.gg/xPrKvt9'' first pr'
