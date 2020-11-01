@@ -1,4 +1,4 @@
-AddCSLuaFile("achievements.lua")
+AddCSLuaFile("achievementsplus/achievements.lua")
 
 AddCSLuaFile("achievementsplus/achieve_init.lua")
 AddCSLuaFile("achievementsplus/achieve_window.lua")
